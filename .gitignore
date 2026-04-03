@@ -1,0 +1,35 @@
+# ── Secrets ────────────────────────────────────────────
+.env
+
+# ── Not part of this repo ───────────────────────────────
+# Chrome extension published separately via Chrome Web Store
+chrome_extension/
+# Local dev/test scripts only
+attack_sim.py
+attack_updated.py
+
+# ── Python runtime ──────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# ── Logs & data ─────────────────────────────────────────
+logs/
+*.log
+*.jsonl
+
+# ── Build / dist ─────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+
+# ── OS / IDE ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
